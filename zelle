@@ -1,0 +1,7 @@
+/* 4. Zelle QR image block
+   Caps the image width so it doesn't stretch to full form width. */
+img.cs_field {
+  width: 100%;      /* scale down on small screens */
+  max-width: 340px; /* cap on desktop; adjust 300-380px to taste */
+  height: auto;     /* keep aspect ratio */
+}
